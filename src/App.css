@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+ color: black;
 }
 
 .App-logo {
@@ -35,4 +35,144 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.main{
+  width: 100vw;
+  height: 200px;
+}
+.mx-4{
+  margin-bottom: 15px;
+  margin-top: 10px;
+  background-color: whitesmoke;
+  color: black;
+  margin-right: 5px;
+  border-radius: 10px;
+  width: 20vw;
+  margin-left: 20px;
+ 
+ 
+}
+.row{
+margin-left: 100px;
+margin-top: 50px;
+margin-bottom: 20px;
+}
+.img-fluid{
+ 
+  height:30vh;
+ 
+}
+.para{
+ 
+  width: 15vw;
+  margin-right: 10px;
+ 
+}
+
+.Navbarnew{
+  padding: 10px;
+  border: 2px solid blue;
+  display: flex;
+  margin: 10px;
+}
+.link{
+  margin-left: 10px;
+text-decoration: none;
+}
+.style{
+  text-decoration:none;
+  color:black;
+}
+.hp-img:hover{
+  
+  box-shadow:5px 5px 5px 5px gray;
+
+}
+.mobile-name{
+  text-decoration: none;
+}
+.pro-sec{
+  display:grid;
+  grid-template-columns: repeat(4,300px);
+  margin-left: 150px;
+}
+.hp-style{
+  
+}
+.mrg{
+  
+  margin-bottom: 20px;
+}
+.hp-img{
+  margin:10px;
+  width: 400px;
+  margin-left: 30px;
+  border-radius: 10px;
+  text-align: center;
+}
+.mrg{
+  border-radius: 10px;
+}
+.child{
+  cursor: pointer;
+  display:grid;
+  grid-template-columns: repeat(4,370px);
+  margin-left: 30px;
+ 
+}
+.mx{
+  margin: 10px;
+  border-radius: 10px;
+}
+.pad{
+  margin: 10px;
+}
+.pad:hover{
+  box-shadow: 5px 5px 5px 5px gray;
+  border-radius: 10px;
+}
+.pad{
+  text-align: center;
+}
+.mx:hover{
+  cursor:pointer;
+}
+.btn{
+  margin:5px;
+}
+.gap{
+  margin-left: 60px;
+}
+.mobilecol{
+  cursor:pointer
+}
+.remove{
+  text-decoration: none;
+  color:white
+}
+.mgh1{
+  width:55%;
+  padding: 5px;
+  margin: 5px;
+  cursor:pointer
+}
+.updateimg{
+  height: 70px;
+
+}
+.updatediv{
+  border: 2px solid black;
+  margin: 5px;
+  width:50%;
+  cursor:pointer;
+}
+.cartstyle{
+  background-color: rgba(128, 128, 128, 0.437);
+  border-radius: 10px;
+  margin: 10px;
+  width: 50%;
+}
+.one{
+  margin-right: 10px;
 }
